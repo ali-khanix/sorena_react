@@ -1,0 +1,16 @@
+.category-container {
+  margin: auto 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}

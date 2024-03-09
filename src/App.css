@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+@font-face {
+  font-family: 'iran yekan';
+  src: url(assets/font/Woff/IRANYekanXFaNum-Regular.woff) format('woff'),
+    url(assets/font/Woff2/IRANYekanXFaNum-Regular.woff2) format('woff2');
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'iran yekan';
+  src: url(assets/font/Woff/IRANYekanXFaNum-Medium.woff) format('woff'),
+    url(assets/font/Woff2/IRANYekanXFaNum-Medium.woff2) format('woff2');
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'iran yekan';
+  src: url(assets/font/Woff/IRANYekanXFaNum-DemiBold.woff) format('woff'),
+    url(assets/font/Woff2/IRANYekanXFaNum-DemiBold.woff2) format('woff2');
+
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'iran yekan';
+  src: url(assets/font/Woff/IRANYekanXFaNum-Bold.woff) format('woff'),
+    url(assets/font/Woff2/IRANYekanXFaNum-Bold.woff2) format('woff2');
+
+  font-weight: 700;
+}
+
+:root {
+  --header-height: 3.5rem;
+  /*========== Colors ==========*/
+  /*Color mode HEX(Hexadecimal)*/
+
+  /* // FONTS FAMILY */
+  --body-font: 'iran yekan', sans-serif;
+  --second-font: 'Cairo', sans-serif;
+
+  /* // Colors-Grays */
+  --gray-950: #030712;
+  --gray-900: #111827;
+  --gray-800: #1f2937;
+  --gray-700: #374151;
+  --gray-600: #4b5563;
+  --gray-500: #6b7280;
+  --gray-400: #9ca3af;
+  --gray-300: #d1d5db;
+  --gray-200: #e5e7eb;
+  --gray-100: #f3f4f6;
+  --gray-50: #f9fafb;
+
+  /* // Colors-primary */
+  --color-primary: #0a1128;
+  --color-primary-alt: #23293e;
+  --color-primary-alter: #3b4153;
+  --color-button: #004fff;
+  --color-button-hover: #4d84ff;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 5px | 1rem = 10px ...*/
+  --heading-1: 6.4rem;
+  --heading-1-sub: 3.4rem;
+  --sub-heading: 1.6rem;
+  --heading-2: 3rem;
+  --description: 1.6rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Line ==========*/
+  --heading-2-line-height: 6rem;
+  --description-line-height: 2.8rem;
+  --section-title: 2rem;
+}
+
+/*========== Responsive typography ==========*/
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --heading-1: 4.8rem;
+    --heading-1-sub: 3rem;
+    --sub-heading: 1.6rem;
+    --heading-2: 4rem;
+    --description: 1.6rem;
+    --section-title: 4.8rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  :root {
+    --heading-1: 7.2rem;
+    --heading-1-sub: 3.9rem;
+    --sub-heading: 2rem;
+    --heading-2: 6rem;
+    --description: 1.6rem;
+    --section-title: 4.8rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+}
+
+a,
+body,
+button {
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  display: block;
+  width: 100%;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.heading-primary {
+  font-size: var(--heading-1);
+  font-family: var(--second-font);
+}
+
+.sub-heading {
+  font-size: var(--sub-heading);
+}
+
+.description {
+  font-size: var(--description);
+  font-weight: var(--description-line-height);
+}
+
+.container {
+  max-width: 75%;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.english-title {
+  font-family: 'Roboto', sans-serif;
+  color: #6b7280;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--gray-800);
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--gray-200);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-button-hover);
+  border-radius: 1rem;
+}
