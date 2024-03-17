@@ -6,7 +6,10 @@ const bridgesJajrud = [
     line: "دید به تهران",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
+
   {
     id: 2,
     image: "/images/media_images/bridges/jajrud/jajrud_2.webp",
@@ -14,6 +17,8 @@ const bridgesJajrud = [
     line: "دید به شمال",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
   {
     id: 3,
@@ -22,6 +27,8 @@ const bridgesJajrud = [
     line: "دید به تهران",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
 
   {
@@ -31,6 +38,8 @@ const bridgesJajrud = [
     line: "دید به شمال",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
   {
     id: 5,
@@ -39,6 +48,8 @@ const bridgesJajrud = [
     line: "دید به تهران",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
   {
     id: 6,
@@ -47,6 +58,8 @@ const bridgesJajrud = [
     line: "دید به شمال",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
   {
     id: 7,
@@ -55,6 +68,8 @@ const bridgesJajrud = [
     line: "دید به تهران",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
 
   {
@@ -64,6 +79,8 @@ const bridgesJajrud = [
     line: "دید به شمال",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
 
   {
@@ -73,6 +90,8 @@ const bridgesJajrud = [
     line: "دید به تهران",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
 
   {
@@ -82,6 +101,8 @@ const bridgesJajrud = [
     line: "دید به شمال",
     dimensions: "ابعاد: 25 * 3",
     status: "رزرو شده",
+    mapLink:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.290813547418!2d51.700024590189294!3d35.7436562609671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f91dfe9b109e483%3A0xa520e10840eae381!2sJajrud%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1710682850060!5m2!1sen!2s",
   },
 ];
 

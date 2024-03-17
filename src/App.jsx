@@ -26,6 +26,8 @@ import BillBoardsGhom from "./pages/media_list/billobards_ghom/BillBoardsGhom";
 // Sub Detail Pages
 import BillboardsGhazvinDetailPage from "./pages/media_list/billboards_ghazvin/BillboardsGhazvinDetailPage";
 import BridgesGhazvinDetailPage from "./pages/media_list/Bridges_ghazvin/BridgesGhazvinDetailPage";
+import BillboardsGhomDetailPage from "./pages/media_list/billobards_ghom/BillboardsGhomDetailPage";
+import BridgesJajrudDetailPage from "./pages/media_list/bridges_jajrud/BridgesJajrudDetailPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -49,8 +51,17 @@ const router = createBrowserRouter(
         element={<BridgesGhazvinDetailPage />}
       />
 
-      <Route path="media-list/bridges-jajrud" element={<BridgesJajrud />} />
       <Route path="media-list/billboards-ghom" element={<BillBoardsGhom />} />
+      <Route
+        path="media-list/billboards-ghom/:billboardsGhomId"
+        element={<BillboardsGhomDetailPage />}
+      />
+
+      <Route path="media-list/bridges-jajrud" element={<BridgesJajrud />} />
+      <Route
+        path="media-list/bridges-jajrud/:bridgesJajrudId"
+        element={<BridgesJajrudDetailPage />}
+      />
 
       <Route path="services" element={<Services />} />
       <Route path="about-us" element={<AboutUs />} />

@@ -33,7 +33,7 @@ export default function BillboardsGhazvinDetailPage() {
               </li>
               <li className="detail-page__breadcrumb-item">
                 <span className="detail-page__breadcrumb-link ">
-                  <span className="active">{image}</span>
+                  <span className="active">{location}</span>
                 </span>
               </li>
             </ol>
@@ -60,6 +60,11 @@ export default function BillboardsGhazvinDetailPage() {
               src={image}
               alt={` عکس از بیلبوردِ ${location}`}
             />
+
+            <div className="google-map__container desktop">
+              <h3>موقعیت مکانی:</h3>
+              <iframe className="google-map" src={mapLink}></iframe>
+            </div>
           </div>
           <div className="media__detail-content">
             <h1>{location} </h1>

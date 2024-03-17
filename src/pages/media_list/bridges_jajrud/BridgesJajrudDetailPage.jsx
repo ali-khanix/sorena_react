@@ -1,15 +1,15 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import ArrowLeftLineIcon from "remixicon-react/ArrowLeftLineIcon";
 import "./../Bridges_ghazvin/bridgesGhazvinDetailPageStyle.css";
-import bridgesGhazvinData from "./../../../data/bridgesGhazvinData";
+import BridgesJajrudData from "./../../../data/BridgesJajrudData";
 import ButtonPrimary from "../../../components/buttons/ButtonPrimary";
 
-export default function BridgesGhazvinDetailPage() {
+export default function BridgesJajrudDetailPage() {
   const navigate = useNavigate();
-  const { bridgesGhazvinId } = useParams();
+  const { bridgesJajrudId } = useParams();
 
-  const singleGhazvinMedia = bridgesGhazvinData.find(
-    (media) => media.id === parseInt(bridgesGhazvinId)
+  const singleGhazvinMedia = BridgesJajrudData.find(
+    (media) => media.id === parseInt(bridgesJajrudId)
   );
 
   const { image, location, line, dimensions, status, mapLink } =

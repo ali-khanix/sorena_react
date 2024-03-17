@@ -1,0 +1,43 @@
+.section-our-clients {
+  margin-top: 4rem;
+}
+
+.our-clients__headings {
+  text-align: center;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.our-clients__logos {
+  padding-block: 2rem;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+.our-clients__logos-slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  white-space: nowrap;
+  animation: 10s slide infinite linear;
+}
+
+.our-clients__logos:hover .our-clients__logos-slide {
+  animation-play-state: paused;
+}
+
+@media screen and (min-width: 64em) {
+  .our-clients__logos-slide {
+    animation: 30s slide infinite linear;
+  }
+}

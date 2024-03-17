@@ -18,6 +18,7 @@ function BridgesJajrud() {
               image={item.image}
               status={item.status}
               dimension={item.dimensions}
+              navigateTo={`/media-list/bridges-jajrud/${item.id}`}
             />
           );
         })}

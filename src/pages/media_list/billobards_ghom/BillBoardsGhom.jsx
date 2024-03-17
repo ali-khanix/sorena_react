@@ -17,6 +17,7 @@ function BillBoardsGhom() {
               image={item.image}
               status={item.status}
               dimension={item.dimensions}
+              navigateTo={`/media-list/billboards-ghom/${item.id}`}
             />
           );
         })}

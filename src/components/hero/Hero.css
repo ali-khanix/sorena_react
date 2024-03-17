@@ -10,6 +10,10 @@
   flex-direction: column;
 }
 
+.hero h1 {
+  margin-bottom: 0;
+}
+
 .hero__content {
   display: flex;
   justify-content: center;
