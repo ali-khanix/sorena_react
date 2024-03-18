@@ -1,3 +1,7 @@
+.section-category {
+  background-color: var(--color-primary);
+}
+
 .category-container {
   margin: auto 2rem;
   display: flex;
@@ -6,6 +10,7 @@
   margin-top: 3rem;
   flex-wrap: wrap;
   margin-bottom: 5rem;
+  padding-block: 5rem;
 }
 
 .category-page-container .category-nav {
@@ -31,10 +36,29 @@ img {
   }
   .category-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
-    width: 78%;
+    width: 90%;
     margin-inline: auto;
+  }
+
+  .category {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .category:hover {
+    scale: 1.05;
+  }
+
+  .category:hover .category-heading {
+    padding: 5rem;
+    font-size: 1.8rem;
+  }
+
+  .category-heading {
+    font-size: 1.4rem;
+    padding: 2rem;
+    transition: all 0.3s ease-in-out;
   }
 
   .category-nav .nav__buttons {

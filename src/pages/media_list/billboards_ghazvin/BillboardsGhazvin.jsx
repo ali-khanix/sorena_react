@@ -8,7 +8,12 @@ function BillboardsGhazvin() {
   const navigate = useNavigate();
   return (
     <>
-      <h1 className="ghazvin-heading">بیلبوردهای محورِ قزوین کرج</h1>
+      <section className="section-headings">
+        <div className="headings">
+          <span>Karaj - Ghazvin line : Billboard</span>
+          <h1 className="ghazvin-heading">بیلبوردهای محورِ قزوین کرج</h1>
+        </div>
+      </section>
 
       <nav className="category-nav">
         <div className="breadcrumb">

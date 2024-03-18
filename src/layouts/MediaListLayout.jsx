@@ -15,33 +15,28 @@ function MediaList() {
           <h1>لیستِ رسانه های تبلیغاتی</h1>
         </div>
         <nav className="category-nav">
-          <div className="breadcrumb">
-            <Link to={"/"}>صفحه اصلی</Link>
-            <Link className="active" to={"/media-list"}>
-              لیست بیلبوردها
-            </Link>
-          </div>
-
           <div className="nav__buttons">
             <Link>
               <ArrowLeftLineIcon size={30} onClick={() => navigate(-1)} />
             </Link>
           </div>
         </nav>
-        <div className="category-container">
-          {categoryObject.map((item, i) => {
-            return (
-              <Category
-                key={i}
-                id={item.id}
-                title={item.title}
-                image={item.image}
-                alt={item.alt}
-                linkTo={item.linkTo}
-              />
-            );
-          })}
-        </div>
+        <section className="section-category">
+          <div className="category-container">
+            {categoryObject.map((item, i) => {
+              return (
+                <Category
+                  key={i}
+                  id={item.id}
+                  title={item.title}
+                  image={item.image}
+                  alt={item.alt}
+                  linkTo={item.linkTo}
+                />
+              );
+            })}
+          </div>
+        </section>
       </div>
     </>
   );

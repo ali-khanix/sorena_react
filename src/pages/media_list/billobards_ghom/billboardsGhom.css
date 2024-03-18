@@ -2,6 +2,16 @@ h1 {
   text-align: center;
   margin-bottom: 6rem;
 }
+.ghom-section-title {
+  text-align: center;
+}
+
+.ghom-section-title span {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-weight: 100;
+  color: var(--gray-400);
+}
 
 .ghom-heading {
   font-size: 2.6rem;

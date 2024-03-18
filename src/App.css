@@ -97,6 +97,18 @@
     --description: 1.6rem;
     --section-title: 4.8rem;
   }
+
+  .media__detail-content {
+    margin-block: 0 !important;
+  }
+
+  .media {
+    margin-bottom: 10rem;
+  }
+
+  .google-map__container.desktop .google-map {
+    padding: 1rem;
+  }
 }
 
 @media screen and (min-width: 1250px) {
