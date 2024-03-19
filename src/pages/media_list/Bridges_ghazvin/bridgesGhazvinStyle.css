@@ -53,8 +53,12 @@ h1 {
     font-weight: 500;
   }
 
-  .ghom-heading {
+  .bridges-ghazvin-headings h1 {
     font-size: 4.8rem;
+  }
+
+  .bridges-ghazvin-headings span {
+    font-size: 3rem;
   }
 }
 

@@ -8,7 +8,7 @@ function BillboardsGhazvin() {
   const navigate = useNavigate();
   return (
     <>
-      <section className="section-headings">
+      <section className="section-headings ghazvin-headings">
         <div className="headings">
           <span>Karaj - Ghazvin line : Billboard</span>
           <h1 className="ghazvin-heading">بیلبوردهای محورِ قزوین کرج</h1>

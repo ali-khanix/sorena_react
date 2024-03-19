@@ -10,7 +10,7 @@ function BridgesGhazvin() {
   return (
     <>
       <div className="bridges-ghazvin-container">
-        <div className="section-headings">
+        <div className="section-headings bridges-ghazvin-headings">
           <span>Karaj - Ghazvin line : Bridge</span>
           <h1>عرشه پل محور اتوبانِ کرج - قزوین</h1>
         </div>

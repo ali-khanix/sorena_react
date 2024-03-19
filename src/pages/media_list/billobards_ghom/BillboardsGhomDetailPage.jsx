@@ -32,6 +32,14 @@ export default function BillboardsGhomDetailPage() {
                 </Link>
               </li>
               <li className="detail-page__breadcrumb-item">
+                <Link
+                  className="detail-page__breadcrumb-link"
+                  to="/media-list/billboards-ghom"
+                >
+                  لیستِ رسانه های محورِ قم
+                </Link>
+              </li>
+              <li className="detail-page__breadcrumb-item">
                 <span className="detail-page__breadcrumb-link ">
                   <span className="active">{location}</span>
                 </span>

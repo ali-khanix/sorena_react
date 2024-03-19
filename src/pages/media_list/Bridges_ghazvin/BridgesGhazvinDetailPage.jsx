@@ -32,6 +32,14 @@ export default function BridgesGhazvinDetailPage() {
                 </Link>
               </li>
               <li className="detail-page__breadcrumb-item">
+                <Link
+                  className="detail-page__breadcrumb-link"
+                  to="/media-list/bridges-ghazvin"
+                >
+                  رسانه های محورِ قزوین
+                </Link>
+              </li>
+              <li className="detail-page__breadcrumb-item">
                 <span className="detail-page__breadcrumb-link ">
                   <span className="active">{location}</span>
                 </span>

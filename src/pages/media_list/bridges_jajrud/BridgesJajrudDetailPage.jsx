@@ -32,6 +32,14 @@ export default function BridgesJajrudDetailPage() {
                 </Link>
               </li>
               <li className="detail-page__breadcrumb-item">
+                <Link
+                  className="detail-page__breadcrumb-link"
+                  to="/media-list/bridges-jajrud"
+                >
+                  لیستِ رسانه های محورِ جاجرود
+                </Link>
+              </li>
+              <li className="detail-page__breadcrumb-item">
                 <span className="detail-page__breadcrumb-link ">
                   <span className="active">{location}</span>
                 </span>
@@ -40,9 +48,6 @@ export default function BridgesJajrudDetailPage() {
           </nav>
 
           <div className="detail-page__nav-buttons">
-            {/* <Link>
-              <ShareLineIcon className="nav-btn-icon" cursor="pointer" />
-            </Link> */}
             <Link>
               <ArrowLeftLineIcon
                 className="nav-btn-icon"
