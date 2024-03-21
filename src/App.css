@@ -143,6 +143,7 @@ a,
 body,
 button {
   font-family: var(--body-font);
+  cursor: pointer;
 }
 
 ul,

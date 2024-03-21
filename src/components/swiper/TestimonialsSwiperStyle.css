@@ -1,0 +1,41 @@
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  margin-top: 5rem;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary);
+  position: absolute;
+  bottom: 0;
+}
+
+.arrow:disabled {
+  color: rgb(189, 189, 189);
+}
+
+.arrow-left {
+  left: 2rem;
+}
+
+.arrow-right {
+  right: 2rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper {
+    max-width: 75%;
+  }
+}
