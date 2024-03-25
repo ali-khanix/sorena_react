@@ -1,44 +1,30 @@
-import { Link, NavLink } from "react-router-dom";
-import "./Navbar.css";
-import CloseIcon from "remixicon-react/CloseFillIcon";
+import { Link, NavLink } from 'react-router-dom';
+import './Navbar.css';
+import CloseIcon from 'remixicon-react/CloseFillIcon';
 
 function Navbar() {
-  // window.onload = () => {
-  //   const navToggle = document.getElementById("nav-toggle");
-  //   const navList = document.getElementById("nav-menu");
-  //   const navLinks = document.querySelectorAll(".nav__link");
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.getElementById('nav-menu').classList.remove('show-menu');
+    }
+  });
 
-  //   const hideMenu = function () {
-  //     navList.classList.remove("show-menu");
-  //   };
-
-  //   const linkAction = () => {
-  //     hideMenu();
-  //   };
-
-  //   navLinks.forEach((link) => link.addEventListener("click", linkAction));
-
-  //   document.addEventListener("keydown", (e) => {
-  //     if (e.key === "Escape") {
-  //       hideMenu();
-  //     }
-  //   });
-
-  //   document.addEventListener("click", (e) => {
-  //     if (!navToggle.contains(e.target) && !navList.contains(e.target)) {
-  //       hideMenu();
-  //     }
-  //   });
-  // };
+  document.addEventListener('click', (e) => {
+    const navToggle = document.getElementById('nav-toggle');
+    const navList = document.getElementById('nav-menu');
+    if (!navToggle.contains(e.target) && !navList.contains(e.target)) {
+      document.getElementById('nav-menu').classList.remove('show-menu');
+    }
+  });
 
   const setNewIcon = () => {
-    document.querySelector(".nav__download-image").src =
-      "/icons/catalogue button/icon2.svg";
+    document.querySelector('.nav__download-image').src =
+      '/icons/catalogue button/icon2.svg';
   };
 
   const setOldIcon = () => {
-    document.querySelector(".nav__download-image").src =
-      "/icons/catalogue button/icon1.svg";
+    document.querySelector('.nav__download-image').src =
+      '/icons/catalogue button/icon1.svg';
   };
 
   return (
@@ -47,8 +33,8 @@ function Navbar() {
         <nav id="nav" className="nav">
           <div
             onClick={() => {
-              const navList = document.getElementById("nav-menu");
-              navList.classList.add("show-menu");
+              const navList = document.getElementById('nav-menu');
+              navList.classList.add('show-menu');
             }}
             id="nav-toggle"
             className="nav__toggle"
@@ -64,8 +50,8 @@ function Navbar() {
             <div className="nav__close-icon-container " id="close-icon">
               <CloseIcon
                 onClick={() => {
-                  const navList = document.getElementById("nav-menu");
-                  navList.classList.remove("show-menu");
+                  const navList = document.getElementById('nav-menu');
+                  navList.classList.remove('show-menu');
                 }}
                 cursor="pointer"
               />
@@ -74,8 +60,8 @@ function Navbar() {
               <li className="nav__item">
                 <NavLink
                   onClick={() => {
-                    const navList = document.getElementById("nav-menu");
-                    navList.classList.remove("show-menu");
+                    const navList = document.getElementById('nav-menu');
+                    navList.classList.remove('show-menu');
                   }}
                   to="/"
                   className="nav__link"
@@ -86,8 +72,8 @@ function Navbar() {
               <li className="nav__item">
                 <NavLink
                   onClick={() => {
-                    const navList = document.getElementById("nav-menu");
-                    navList.classList.remove("show-menu");
+                    const navList = document.getElementById('nav-menu');
+                    navList.classList.remove('show-menu');
                   }}
                   to="media-list"
                   className="nav__link"
@@ -98,8 +84,8 @@ function Navbar() {
               <li className="nav__item">
                 <NavLink
                   onClick={() => {
-                    const navList = document.getElementById("nav-menu");
-                    navList.classList.remove("show-menu");
+                    const navList = document.getElementById('nav-menu');
+                    navList.classList.remove('show-menu');
                   }}
                   to="services"
                   className="nav__link"
@@ -110,8 +96,8 @@ function Navbar() {
               <li className="nav__item">
                 <NavLink
                   onClick={() => {
-                    const navList = document.getElementById("nav-menu");
-                    navList.classList.remove("show-menu");
+                    const navList = document.getElementById('nav-menu');
+                    navList.classList.remove('show-menu');
                   }}
                   to="call-us"
                   className="nav__link"
@@ -122,8 +108,8 @@ function Navbar() {
               <li className="nav__item">
                 <NavLink
                   onClick={() => {
-                    const navList = document.getElementById("nav-menu");
-                    navList.classList.remove("show-menu");
+                    const navList = document.getElementById('nav-menu');
+                    navList.classList.remove('show-menu');
                   }}
                   to="about-us"
                   className="nav__link"

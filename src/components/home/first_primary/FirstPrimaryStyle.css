@@ -1,0 +1,32 @@
+.section-first-cta {
+  margin-top: 10rem;
+  background-image: url(/images/primary_cta/primary_cta.webp);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+}
+
+.first-cta {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.section-first-cta .section-title {
+  color: var(--gray-200);
+}
+
+@media screen and (min-width: 1024px) {
+  .first-cta {
+    width: 75%;
+    margin-inline: auto;
+  }
+
+  .first-cta .btn-container {
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,31 @@
+.about-us__headings {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.about-us__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 75%;
+  margin-inline: auto;
+  column-gap: 6rem;
+  margin-top: 4rem;
+}
+
+.about-us__video-content {
+  width: 60rem;
+}
+
+.about-us__video-content video {
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.about-us__data-content .description {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.about-us__data-content strong {
+  color: red;
+}

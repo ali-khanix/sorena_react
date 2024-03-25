@@ -1,4 +1,4 @@
-import ButtonPrimary from './../buttons/ButtonPrimary';
+import ButtonPrimary from './../../buttons/ButtonPrimary';
 import './Hero.css';
 
 function Hero() {
@@ -31,7 +31,11 @@ function Hero() {
             فضاهایِ تبلیغاتی در بهترین لوکیشن ها را انتخاب کنید.
           </p>
 
-          <ButtonPrimary />
+          <ButtonPrimary
+            text={'همین حالا تماس بگیرید'}
+            icon="/icons/calling phone icon.svg"
+            alt="آیکون تماس با مدیر عاملِ سورنا"
+          />
         </div>
       </div>
     </section>

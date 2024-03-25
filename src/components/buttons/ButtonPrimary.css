@@ -28,7 +28,7 @@ img {
   font-weight: 600;
 }
 
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 1024px) {
   .btn-container {
     margin-inline-start: auto;
   }
