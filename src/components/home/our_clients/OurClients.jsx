@@ -1,4 +1,4 @@
-import "./ourClients.css";
+import './ourClients.css';
 
 export default function OurClients() {
   return (

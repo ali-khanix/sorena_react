@@ -1,8 +1,22 @@
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import CloseIcon from 'remixicon-react/CloseFillIcon';
+import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
+import { useState } from 'react';
 
 function Navbar() {
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, 'change', (latest) => {
+    const previous = scrollY.getPrevious();
+    if (latest > previous && latest > 150) {
+      setHidden(true);
+    } else {
+      setHidden(false);
+    }
+  });
+
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       document.getElementById('nav-menu').classList.remove('show-menu');
@@ -30,7 +44,19 @@ function Navbar() {
   return (
     <>
       <header id="header" className="header">
-        <nav id="nav" className="nav">
+        <motion.nav
+          variants={{
+            visible: { y: 0 },
+            hidden: { y: '-120%' },
+          }}
+          animate={hidden ? 'hidden' : 'visible'}
+          transition={{
+            duration: 0.25,
+            ease: 'easeInOut',
+          }}
+          id="nav"
+          className="nav"
+        >
           <div
             onClick={() => {
               const navList = document.getElementById('nav-menu');
@@ -136,7 +162,7 @@ function Navbar() {
               <span>دانلودِ کاتالوگ</span>
             </a>
           </div>
-        </nav>
+        </motion.nav>
       </header>
     </>
   );

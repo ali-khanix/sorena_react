@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import ArrowRightLineIcon from 'remixicon-react/ArrowRightLineIcon';
 import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
+import ErrorWarning from 'remixicon-react/ErrorWarningLineIcon';
 
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
@@ -91,6 +92,11 @@ export default function AboutUs() {
                   }}
                 >
                   بیشتر درباره ما بخوانید...
+                  <ErrorWarning
+                    style={{
+                      marginRight: '.5rem',
+                    }}
+                  />
                 </Button>
               </Link>
             </div>
