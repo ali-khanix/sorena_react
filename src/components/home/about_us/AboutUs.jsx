@@ -8,6 +8,9 @@ import 'swiper/css/navigation';
 import ArrowRightLineIcon from 'remixicon-react/ArrowRightLineIcon';
 import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
 
+import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+
 export default function AboutUs() {
   return (
     <>
@@ -21,7 +24,6 @@ export default function AboutUs() {
           <div className="about-us__content">
             <div className="about-us__video-content">
               <Swiper
-              
                 className="about-us__swiper"
                 spaceBetween={30}
                 modules={[Autoplay, Navigation, Pagination, Scrollbar]}
@@ -31,7 +33,6 @@ export default function AboutUs() {
                 }}
                 pagination={{ clickable: true, dynamicBullets: true }}
                 scrollbar={{ draggable: true }}
-                
               >
                 <SwiperSlide>
                   <video
@@ -75,7 +76,70 @@ export default function AboutUs() {
                 عزیزان میباشد.
                 <br />
               </p>
+
+              <Link className="btn-primary" to="about-us">
+                <Button
+                  className="btn-mui"
+                  variant="outlined"
+                  size="large"
+                  style={{
+                    fontSize: '1.6rem',
+                    fontFamily: 'iran yekan',
+                    padding: '1.6rem 3rem',
+                    fontWeight: '700',
+                    borderRadius: '1rem',
+                  }}
+                >
+                  بیشتر درباره ما بخوانید...
+                </Button>
+              </Link>
             </div>
+          </div>
+
+          <div className="about-us__images">
+            <Swiper
+              spaceBetween={30}
+              modules={[Autoplay, Navigation, Pagination, Scrollbar]}
+              navigation={{
+                nextEl: '.arrow-left',
+                prevEl: '.arrow-right',
+              }}
+              pagination={{ clickable: true, dynamicBullets: true }}
+              scrollbar={{ draggable: true }}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              <SwiperSlide className="about-us__images-slide">
+                <img src="/images/about us/aboutUs1.webp" alt="" />
+              </SwiperSlide>
+              <SwiperSlide className="about-us__images-slide">
+                <img src="/images/about us/aboutUs2.webp" alt="" />
+              </SwiperSlide>
+              <SwiperSlide className="about-us__images-slide">
+                <img src="/images/about us/aboutUs3.webp" alt="" />
+              </SwiperSlide>
+
+              <div className="navigations">
+                <div className="arrows">
+                  <button className="arrow-right arrow">
+                    <ArrowRightLineIcon />
+                  </button>
+                  <button className="arrow-left arrow">
+                    <ArrowLeftLineIcon />
+                  </button>
+                </div>
+              </div>
+            </Swiper>
           </div>
         </div>
       </section>
