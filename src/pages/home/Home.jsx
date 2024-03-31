@@ -5,6 +5,8 @@ import Hero from './../../components/home/hero/Hero';
 import TestimonialsSwiper from '../../components/swiper/TestimonialsSwiper';
 import FirstPrimary from '../../components/home/first_primary/FirstPrimary';
 import AboutUs from '../../components/home/about_us/AboutUs';
+import WhyChooseUs from '../../components/home/why_choose_us/WhyChooseUs';
+import SecondCta from '../../components/home/second_cta/SecondCta';
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <TestimonialsSwiper />
       <FirstPrimary />
       <AboutUs />
+      <WhyChooseUs />
+      <SecondCta />
     </>
   );
 }

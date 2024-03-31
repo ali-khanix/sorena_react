@@ -1,0 +1,29 @@
+.section-why-choose-us {
+  margin-top: 4rem;
+}
+
+.why-choose-us__headings {
+  text-align: center;
+}
+
+.why-choose-us__body-content {
+  margin: 2rem;
+  padding: 4rem;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.374);
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .why-choose-us__body-content {
+    max-width: 50%;
+    padding-block: 2rem;
+    margin-inline: auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.374);
+    border-radius: 1rem;
+  }
+
+  .why-choose-us__body-content p {
+    line-height: 2.2;
+    padding: 2rem 8rem;
+  }
+}
