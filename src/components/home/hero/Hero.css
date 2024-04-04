@@ -10,6 +10,12 @@
   flex-direction: column;
 }
 
+.hero__cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .hero h1 {
   margin-bottom: 0;
 }
@@ -39,12 +45,22 @@
   line-height: 1.6;
 }
 
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 1024px) {
   .hero {
     display: grid;
     direction: ltr;
     grid-template-columns: 1.75fr 1fr;
     padding-bottom: 0;
+  }
+
+  .hero__cta-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+  }
+
+  .hero__cta-buttons .btn-container {
+    margin-inline-start: 0;
   }
 
   .hero__image {

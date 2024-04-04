@@ -1,8 +1,8 @@
-import { Link, useNavigate, useParams } from "react-router-dom";
-import ArrowLeftLineIcon from "remixicon-react/ArrowLeftLineIcon";
-import "./../Bridges_ghazvin/bridgesGhazvinDetailPageStyle.css";
-import BridgesJajrudData from "./../../../data/BridgesJajrudData";
-import ButtonPrimary from "../../../components/buttons/ButtonPrimary";
+import { Link, useNavigate, useParams } from 'react-router-dom';
+import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
+import './../Bridges_ghazvin/bridgesGhazvinDetailPageStyle.css';
+import BridgesJajrudData from './../../../data/BridgesJajrudData';
+import ButtonPrimary from '../../../components/buttons/ButtonPrimary';
 
 export default function BridgesJajrudDetailPage() {
   const navigate = useNavigate();
@@ -96,7 +96,10 @@ export default function BridgesJajrudDetailPage() {
               </h3>
               <hr />
 
-              <ButtonPrimary />
+              <ButtonPrimary
+                text="همین حالا تماس بگیرید"
+                icon="/icons/calling phone icon.svg"
+              />
             </div>
           </div>
         </div>

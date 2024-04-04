@@ -23,7 +23,7 @@
   font-size: 1.6rem;
 }
 .detail-page__breadcrumb-link::after {
-  content: "/";
+  content: '/';
   margin-right: 1rem;
 }
 
@@ -111,7 +111,7 @@
 .google-map {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
   margin-top: 2rem;
-  border-radius: 4rem;
+  border-radius: 1rem;
   font-weight: 500;
   border: none;
   width: 100%;

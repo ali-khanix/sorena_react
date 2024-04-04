@@ -1,8 +1,8 @@
-import { Link, useNavigate, useParams } from "react-router-dom";
-import ArrowLeftLineIcon from "remixicon-react/ArrowLeftLineIcon";
-import "./billboardsGhomDetailPageStyle.css";
-import bridgesGhazvinData from "./../../../data/BillboardsGhomData";
-import ButtonPrimary from "../../../components/buttons/ButtonPrimary";
+import { Link, useNavigate, useParams } from 'react-router-dom';
+import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
+import './billboardsGhomDetailPageStyle.css';
+import bridgesGhazvinData from './../../../data/BillboardsGhomData';
+import ButtonPrimary from '../../../components/buttons/ButtonPrimary';
 
 export default function BillboardsGhomDetailPage() {
   const navigate = useNavigate();
@@ -99,7 +99,10 @@ export default function BillboardsGhomDetailPage() {
               </h3>
               <hr />
 
-              <ButtonPrimary />
+              <ButtonPrimary
+                text="همین حالا تماس بگیرید"
+                icon="/icons/calling phone icon.svg"
+              />
             </div>
           </div>
         </div>

@@ -6,7 +6,22 @@ export default function SecondCta() {
     <>
       <section className="section-seconda-cta">
         <div className="second-cta">
+          <div className="second-cta__image-content">
+            <picture className="second-cta__image-container">
+              <source
+                srcSet="/public/images/second_cta/second_cta_image_mobile.webp"
+                media="(max-width: 744px)"
+              />
+              <source srcSet="/public/images/second_cta/second_cta_image_desktop.webp" />
+              <img
+                src="/public/images/second_cta/second_cta_image_mobile.webp"
+                alt=""
+                className="second-cta__image"
+              />
+            </picture>
+          </div>
           <div className="second-cta__body-content">
+            <div className="second-cta__bg-blur"></div>
             <h2 className="section-title">این میتونه بیلبوردِ شما باشه</h2>
 
             <p className="description">
