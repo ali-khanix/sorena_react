@@ -37,7 +37,7 @@ export default function AboutUs() {
               >
                 <SwiperSlide>
                   <video
-                    src="/video/video_2024-03-24_18-05-22.mp4"
+                    src="/videos/video_2024-03-24_18-05-22.mp4"
                     controls
                     muted
                     className="about-us__video"
@@ -45,7 +45,7 @@ export default function AboutUs() {
                 </SwiperSlide>
                 <SwiperSlide>
                   <video
-                    src="/video/کلیپ و تیزر تبلیغاتی مجموعه سورنا مهر البرز.mp4"
+                    src="/videos/کلیپ و تیزر تبلیغاتی مجموعه سورنا مهر البرز.mp4"
                     controls
                     muted
                     className="about-us__video"

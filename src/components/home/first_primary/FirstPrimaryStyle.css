@@ -31,4 +31,8 @@
   .first-cta .btn-container {
     margin-inline: auto;
   }
+
+  .first-cta {
+    max-width: 50%;
+  }
 }

@@ -1,0 +1,27 @@
+.section-our-services {
+  margin-top: 4rem;
+}
+
+.our-services__headings {
+  text-align: center;
+}
+
+.our-services__data {
+  padding: 4rem;
+  background-image: url(/images/our_services/our_services_bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.our-services__cards {
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+}

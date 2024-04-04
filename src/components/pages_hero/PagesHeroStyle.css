@@ -1,0 +1,65 @@
+.section-page-temp {
+  background-image: url('/public//images/pages/our_services_page/our_services_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border-top--corner::before {
+  content: '';
+  width: 20rem;
+  height: 1px;
+  background-color: var(--gray-200);
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.border-top--corner::after {
+  content: '';
+  width: 1px;
+  height: 20rem;
+  background-color: var(--gray-200);
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.border-bottom--corner::before {
+  content: '';
+  width: 20rem;
+  height: 1px;
+  background-color: var(--gray-200);
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+.border-bottom--corner::after {
+  content: '';
+  height: 20rem;
+  width: 1px;
+  background-color: var(--gray-200);
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.page-temp__hero-content {
+  margin-inline: auto;
+  padding: 4rem;
+  position: relative;
+}
+
+.page-temp__hero-content .heading-primary {
+  margin-bottom: 0;
+  color: var(--gray-200);
+  text-align: start;
+}
+
+@media screen and (min-width: 744px) {
+  .section-page-temp {
+    padding-block: 8rem;
+  }
+  .page-temp__hero-content {
+    max-width: 50%;
+  }
+}

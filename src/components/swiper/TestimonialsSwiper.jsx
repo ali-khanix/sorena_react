@@ -74,22 +74,6 @@ export default function TestimonialsSwiper() {
             profileTitle={'نماینده فروش آجر نماچین'}
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <Testimonials
-            comment={`قیمت خدمات شرکت سورنا در مقایسه با سایر شرکت‌های فعال در این زمینه بسیار مناسب و مقرون به صرفه است.`}
-            profileImage={'/images/testimonials/testimonials profile.webp'}
-            profileName={'علیرضا رشیدنیا'}
-            profileTitle={'نماینده فروش آجر نماچین'}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Testimonials
-            comment={`قیمت خدمات شرکت سورنا در مقایسه با سایر شرکت‌های فعال در این زمینه بسیار مناسب و مقرون به صرفه است.`}
-            profileImage={'/images/testimonials/testimonials profile.webp'}
-            profileName={'علیرضا رشیدنیا'}
-            profileTitle={'نماینده فروش آجر نماچین'}
-          />
-        </SwiperSlide>
 
         <div className="navigations">
           <div className="arrows">

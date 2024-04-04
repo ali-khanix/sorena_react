@@ -1,10 +1,98 @@
+import { Link, NavLink } from 'react-router-dom';
 import './FooterStyle.css';
+
+import { IoCallOutline } from 'react-icons/io5';
+import { FiMapPin } from 'react-icons/fi';
 
 export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <div className="nav-footer"></div>
+        <div className="footer__nav-container">
+          <div className="footer__nav-logo-container">
+            <img
+              src="/public/images/logo/Logo Sorena_white.svg"
+              alt=""
+              className="footer__nav-logo"
+            />
+          </div>
+
+          <nav className="footer__nav">
+            <ul className="footer__nav-list">
+              <li className="footer__nav-item">
+                <a
+                  href="/public/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
+                  className="nav__download-content"
+                >
+                  <img
+                    src="/public/icons/catalogue button/icon2.svg"
+                    alt=""
+                    className="nav__download-image"
+                  />
+                  <span>دانلودِ کاتالوگ</span>
+                </a>
+              </li>
+
+              <li className="footer__nav-item">
+                <NavLink className="footer__nav-link" to="/">
+                  خانه
+                </NavLink>
+              </li>
+              <li className="footer__nav-item">
+                <NavLink className="footer__nav-link" to="/media-list">
+                  رسانه ها
+                </NavLink>
+              </li>
+              <li className="footer__nav-item">
+                <NavLink className="footer__nav-link" to="/services">
+                  خدمات
+                </NavLink>
+              </li>
+              <li className="footer__nav-item">
+                <NavLink className="footer__nav-link" to="/about-us">
+                  درباره ما
+                </NavLink>
+              </li>
+              <li className="footer__nav-item">
+                <NavLink className="footer__nav-link" to="/call-us">
+                  تماس با ما
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div className="footer__address">
+          <div className="footer__address-karaj">
+            <h4>دفتر کرج:</h4>
+            <div className="footer__address-location">
+              <FiMapPin size={30} color="var(--color-button)" />
+              <p>کرج، آزادگان، برج یادمان، بلوک آ، طبقه 7، واحد آ 1</p>
+            </div>
+
+            <div className="footer__address-number">
+              <IoCallOutline size={20} color="var(--color-button)" />
+              <p>026-34205140-41</p>
+            </div>
+          </div>
+
+          <div
+            style={{
+              marginTop: '3rem',
+            }}
+            className="footer__address-ghazvin"
+          >
+            <h4>دفتر قزوین:</h4>
+            <div className="footer__address-location">
+              <FiMapPin size={20} color="var(--color-button)" />
+              <p>قزوین، میدان الموت</p>
+            </div>
+
+            <div className="footer__address-number">
+              <IoCallOutline size={20} color="var(--color-button)" />
+              <p>026-34205140-41</p>
+            </div>
+          </div>
+        </div>
       </footer>
     </>
   );
