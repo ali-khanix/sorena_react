@@ -19,14 +19,14 @@ export default function ServicesSectionTemplate() {
           <div className="service__image-content">
             <div className="service__image-container">
               <img
-                src="/public/images/pages/our_services_page/brand_identity_deisgn_image.webp"
+                src="/images/pages/our_services_page/brand_identity_deisgn_image.webp"
                 alt=""
                 className="service__image"
               />
             </div>
 
             <div className="service__icon-container">
-              <img src="/public/icons/our_services/fountain_pen.svg" alt="" />
+              <img src="/icons/our_services/fountain_pen.svg" alt="" />
             </div>
           </div>
         </div>

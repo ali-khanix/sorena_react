@@ -65,6 +65,7 @@
   /*========== Font and typography ==========*/
   /*.5rem = 5px | 1rem = 10px ...*/
   --heading-1: 6.4rem;
+  --heading-1-mobile: 4.8rem;
   --heading-1-sub: 3.4rem;
   --sub-heading: 1.6rem;
   --heading-2: 3rem;
@@ -175,7 +176,7 @@ video {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .heading-primary {
-  font-size: var(--heading-1);
+  font-size: var(--heading-1-mobile);
   font-family: var(--second-font);
 }
 

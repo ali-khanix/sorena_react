@@ -1,11 +1,12 @@
-import ArrowLeftLineIcon from "remixicon-react/ArrowLeftLineIcon";
-import Item from "../../../components/item/Item";
-import billboardsGhazvinData from "./../../../data/BillboardsGhazvinData";
-import "./billboardsGhazvin.css";
-import { Link, useNavigate } from "react-router-dom";
+import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
+import Item from '../../../components/item/Item';
+import billboardsGhazvinData from './../../../data/BillboardsGhazvinData';
+import './billboardsGhazvin.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 function BillboardsGhazvin() {
   const navigate = useNavigate();
+
   return (
     <>
       <section className="section-headings ghazvin-headings">
@@ -17,8 +18,8 @@ function BillboardsGhazvin() {
 
       <nav className="category-nav">
         <div className="breadcrumb">
-          <Link to={"/"}>صفحه اصلی</Link>
-          <Link to={"/media-list"}>لیست بیلبوردها</Link>
+          <Link to={'/'}>صفحه اصلی</Link>
+          <Link to={'/media-list'}>لیست بیلبوردها</Link>
           <p className="active">محور قزوین</p>
         </div>
 

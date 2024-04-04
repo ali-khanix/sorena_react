@@ -69,7 +69,15 @@
   display: inline;
   padding: 0.5rem 3rem;
   border-radius: 3rem;
+}
+
+.reserved {
   background-color: rgb(197, 197, 197);
+}
+
+.available {
+  background-color: var(--color-button);
+  color: var(--gray-200);
 }
 
 @media screen and (min-width: 45em) {

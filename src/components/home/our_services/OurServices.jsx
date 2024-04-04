@@ -21,33 +21,33 @@ export default function OurServices() {
               />
               <OurServicesCard
                 englishTitle="Environmental Advertising"
-                icon="/public/icons/our_services/billboard_icon.svg"
+                icon="/icons/our_services/billboard_icon.svg"
                 iconAlt="آیکون بیلبورد"
                 title="تبلیغات محیطی"
               />
 
               <OurServicesCard
                 englishTitle="Business Coaching"
-                icon="/public/icons/our_services/business_coaching_icon.svg"
+                icon="/icons/our_services/business_coaching_icon.svg"
                 iconAlt="آیکون کوچینگ کسب و کار"
                 title="کوچینگ کسب و کار"
               />
 
               <OurServicesCard
                 englishTitle="Brand Identity Design"
-                icon="/public/icons/our_services/fountain_pen.svg"
+                icon="/icons/our_services/fountain_pen.svg"
                 iconAlt="آیکون طراحی"
                 title="طراحی و هویت برند"
               />
               <OurServicesCard
                 englishTitle="Digital Marketing"
-                icon="/public/icons/our_services/digital_marketing_icon.svg"
+                icon="/icons/our_services/digital_marketing_icon.svg"
                 iconAlt="آیکون دیجیتال مارکتینگ"
                 title="دیجیتال مارکتینگ"
               />
               <OurServicesCard
                 englishTitle="Photography & Filming"
-                icon="/public/icons/our_services/photography_icon.svg"
+                icon="/icons/our_services/photography_icon.svg"
                 iconAlt="آیکون عکاسی"
                 title="عکاسی و فیلمبرداری"
               />

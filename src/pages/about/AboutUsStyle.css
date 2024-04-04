@@ -1,0 +1,6 @@
+.section-about-us-page {
+  background-image: url('/images/pages/about/about_us_page_image.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 8rem;
+}

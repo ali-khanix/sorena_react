@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="footer__nav-container">
           <div className="footer__nav-logo-container">
             <img
-              src="/public/images/logo/Logo Sorena_white.svg"
+              src="/images/logo/Logo Sorena_white.svg"
               alt=""
               className="footer__nav-logo"
             />
@@ -21,11 +21,11 @@ export default function Footer() {
             <ul className="footer__nav-list">
               <li className="footer__nav-item">
                 <a
-                  href="/public/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
+                  href="/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
                   className="nav__download-content"
                 >
                   <img
-                    src="/public/icons/catalogue button/icon2.svg"
+                    src="/icons/catalogue button/icon2.svg"
                     alt=""
                     className="nav__download-image"
                   />

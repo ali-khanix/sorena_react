@@ -1,5 +1,5 @@
-import "./item.css";
-import { Link } from "react-router-dom";
+import './item.css';
+import { Link } from 'react-router-dom';
 
 function Item({ image, location, line, dimension, status, navigateTo }) {
   return (
@@ -13,7 +13,7 @@ function Item({ image, location, line, dimension, status, navigateTo }) {
               <span className="item__dimension">ابعاد: {dimension}</span>
             </div>
             <div className="item__label-cotainer">
-              <span className="item__status">{status}</span>
+              <span className="item__status reserved">{status}</span>
             </div>
           </div>
         </div>

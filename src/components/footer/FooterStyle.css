@@ -1,11 +1,10 @@
 .footer {
-  padding: 4rem;
+  padding: 2rem;
   background-color: var(--color-primary);
   color: var(--gray-200);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 4rem;
-  align-items: center;
 }
 
 .footer__nav-logo {
@@ -23,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 2rem;
 }
 .footer__nav .nav__download-content {
   display: flex;
@@ -82,7 +82,17 @@
   padding-block-end: 2rem;
 }
 
+@media screen and (min-width: 744px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .footer {
+    align-items: center;
+  }
   .footer__address-karaj {
     max-width: 40%;
   }

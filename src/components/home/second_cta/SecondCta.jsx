@@ -9,12 +9,12 @@ export default function SecondCta() {
           <div className="second-cta__image-content">
             <picture className="second-cta__image-container">
               <source
-                srcSet="/public/images/second_cta/second_cta_image_mobile.webp"
+                srcSet="/images/second_cta/second_cta_image_mobile.webp"
                 media="(max-width: 744px)"
               />
-              <source srcSet="/public/images/second_cta/second_cta_image_desktop.webp" />
+              <source srcSet="/images/second_cta/second_cta_image_desktop.webp" />
               <img
-                src="/public/images/second_cta/second_cta_image_mobile.webp"
+                src="/images/second_cta/second_cta_image_mobile.webp"
                 alt=""
                 className="second-cta__image"
               />
