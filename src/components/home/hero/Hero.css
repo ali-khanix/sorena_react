@@ -45,11 +45,17 @@
   line-height: 1.6;
 }
 
+@media screen and (min-width: 900px) {
+  .hero {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .hero {
     display: grid;
     direction: ltr;
-    grid-template-columns: 1.75fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding-bottom: 0;
   }
 
@@ -73,6 +79,7 @@
 
   .hero__content {
     text-align: end;
+    padding-block: 4rem;
   }
 
   .hero__content .heading-primary {
@@ -83,5 +90,14 @@
 
   .hero__content .heading-primary span {
     font-size: 3.4rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .hero {
+    display: grid;
+    direction: ltr;
+    grid-template-columns: 1.75fr 1.25fr;
+    padding-bottom: 0;
   }
 }

@@ -207,9 +207,10 @@ video {
 
 .english-title {
   font-family: 'Roboto', sans-serif;
-  color: #6b7280;
+  color: var(--gray-300);
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .section-title {
