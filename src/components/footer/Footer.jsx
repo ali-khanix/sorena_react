@@ -1,8 +1,10 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './FooterStyle.css';
 
-import { IoCallOutline } from 'react-icons/io5';
 import { FiMapPin } from 'react-icons/fi';
+import { Button } from '@mui/material';
+import { PlaceOutlined } from '@mui/icons-material';
+import PhoneEnabledOutlinedIcon from '@mui/icons-material/PhoneEnabledOutlined';
 
 export default function Footer() {
   return (
@@ -20,17 +22,24 @@ export default function Footer() {
           <nav className="footer__nav">
             <ul className="footer__nav-list">
               <li className="footer__nav-item">
-                <a
+                <Button
+                  variant="outlined"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: 'var(--gray-700)',
+                    },
+                  }}
+                  style={{
+                    fontFamily: 'iran yekan',
+                    color: 'white',
+                    fontSize: '1.6rem',
+                    padding: '1.6rem 3rem',
+                    border: '0.5px solid white',
+                  }}
                   href="/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
-                  className="nav__download-content"
                 >
-                  <img
-                    src="/icons/catalogue button/icon2.svg"
-                    alt=""
-                    className="nav__download-image"
-                  />
-                  <span>دانلودِ کاتالوگ</span>
-                </a>
+                  <div className="mui-content">دانلود کاتالوگ</div>
+                </Button>
               </li>
 
               <li className="footer__nav-item">
@@ -65,12 +74,22 @@ export default function Footer() {
           <div className="footer__address-karaj">
             <h4>دفتر کرج:</h4>
             <div className="footer__address-location">
-              <FiMapPin size={30} color="var(--color-button)" />
+              <PlaceOutlined
+                sx={{
+                  color: 'var(--color-button)',
+                  fontSize: '3rem',
+                }}
+              />
               <p>کرج، آزادگان، برج یادمان، بلوک آ، طبقه 7، واحد آ 1</p>
             </div>
 
             <div className="footer__address-number">
-              <IoCallOutline size={20} color="var(--color-button)" />
+              <PhoneEnabledOutlinedIcon
+                sx={{
+                  fontSize: '3rem',
+                  color: 'var(--color-button)',
+                }}
+              />
               <p>026-34205140-41</p>
             </div>
           </div>
@@ -83,12 +102,22 @@ export default function Footer() {
           >
             <h4>دفتر قزوین:</h4>
             <div className="footer__address-location">
-              <FiMapPin size={20} color="var(--color-button)" />
+              <PlaceOutlined
+                sx={{
+                  color: 'var(--color-button)',
+                  fontSize: '3rem',
+                }}
+              />
               <p>قزوین، میدان الموت</p>
             </div>
 
             <div className="footer__address-number">
-              <IoCallOutline size={20} color="var(--color-button)" />
+              <PhoneEnabledOutlinedIcon
+                sx={{
+                  fontSize: '3rem',
+                  color: 'var(--color-button)',
+                }}
+              />
               <p>026-34205140-41</p>
             </div>
           </div>

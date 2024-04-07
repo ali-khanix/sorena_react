@@ -1,6 +1,8 @@
 .our-services__data {
   margin-top: 2rem;
+  max-width: auto;
 }
+
 .our-services__card {
   color: var(--gray-200);
   padding: 4rem;
@@ -39,6 +41,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .our-services__data {
+    max-width: 75%;
+    margin-inline: auto;
+    border-radius: 15rem;
+  }
   .our-services__card {
     max-width: none;
     width: 35rem;

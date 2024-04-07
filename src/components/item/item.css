@@ -36,7 +36,7 @@
 }
 
 .item__location {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.7;
   font-weight: 700;
 }
@@ -45,7 +45,7 @@
 .item__dimension {
   font-size: 1.4rem;
   color: var(--gray-400);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .item__label-cotainer {
