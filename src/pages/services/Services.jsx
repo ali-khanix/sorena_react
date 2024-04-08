@@ -76,14 +76,10 @@ function Services() {
 
       <section className="services-section section-campaign">
         <div className="service campaign">
-          <div className="campaign__headings">
-            <p className="english-title">Campaing Writing</p>
-            <h2 className="section-title">کمپین نویسی</h2>
-          </div>
           <div className="service__image-content">
             <div className="service__image-container">
               <img
-                src="/public/images/pages/our_services_page/campaign_writing.webp"
+                src="/images/pages/our_services_page/business_coaching.webp"
                 alt="عکس در مورد کمپین نویسی"
                 className="service__image"
               />
@@ -91,12 +87,75 @@ function Services() {
 
             <div className="service__icon-container">
               <img
-                src="/public/icons/our_services/campaign_icon.svg"
+                src="/icons/our_services/campaign_icon.svg"
                 alt="آیکون کمپین نویسی"
               />
             </div>
           </div>
           <div className="service__body-content">
+            <div className="campaign__headings">
+              <p className="english-title">Campaing Writing</p>
+              <h2 className="section-title">کمپین نویسی</h2>
+            </div>
+            <p className="description">
+              در آژانس تبلیغاتی سورنا، طراحی و هویت بصری به عنوان پایه‌ای اساسی
+              برای شناخت برند شما مورد توجه قرار می‌گیرد. با استفاده از دانش و
+              تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
+              و جذابی برای برند خود ایجاد کنید.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="services-section section-digital-marketing">
+        <div className="service digital-marketing">
+          <div className="service__image-content">
+            <div className="service__image-container">
+              <img
+                src="/images/pages/our_services_page/digital_marketing_img.webp"
+                alt="عکس در مورد کمپین نویسی"
+                className="service__image"
+              />
+            </div>
+
+            <div className="service__icon-container">
+              <img
+                src="/icons/our_services/digital_marketing_icon.svg"
+                alt="آیکون دیجیتال مارکتینگ"
+              />
+            </div>
+          </div>
+          <div className="service__body-content">
+            <div className="campaign__headings">
+              <p className="english-title">Digital Marketing</p>
+              <h2 className="section-title">دیجیتال مارکتینگ</h2>
+            </div>
+            <p className="description">
+              در آژانس تبلیغاتی سورنا، طراحی و هویت بصری به عنوان پایه‌ای اساسی
+              برای شناخت برند شما مورد توجه قرار می‌گیرد. با استفاده از دانش و
+              تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
+              و جذابی برای برند خود ایجاد کنید.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="services-section section-business-coaching">
+        <div className="service business-coaching">
+          <div className="service__image-content">
+            <div className="service__image-container">
+              <img
+                src="/images/pages/our_services_page/business_coaching.webp"
+                alt="عکس در مورد کمپین نویسی"
+                className="service__image"
+              />
+            </div>
+          </div>
+          <div className="service__body-content">
+            <div className="campaign__headings">
+              <p className="english-title">Business Coaching</p>
+              <h2 className="section-title">کوچینگ کسب و کار</h2>
+            </div>
             <p className="description">
               در آژانس تبلیغاتی سورنا، طراحی و هویت بصری به عنوان پایه‌ای اساسی
               برای شناخت برند شما مورد توجه قرار می‌گیرد. با استفاده از دانش و

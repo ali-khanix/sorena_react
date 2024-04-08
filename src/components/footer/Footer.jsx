@@ -32,8 +32,8 @@ export default function Footer() {
                   style={{
                     fontFamily: 'iran yekan',
                     color: 'white',
-                    fontSize: '1.6rem',
-                    padding: '1.6rem 3rem',
+                    fontSize: '1.4rem',
+                    padding: '1rem 1rem',
                     border: '0.5px solid white',
                   }}
                   href="/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
