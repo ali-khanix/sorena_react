@@ -90,7 +90,9 @@ export default function Footer() {
                   color: 'var(--color-button)',
                 }}
               />
-              <p>026-34205140-41</p>
+              <a href="tel:+982634205140">
+                <p>34205140-41 - 026</p>
+              </a>
             </div>
           </div>
 
@@ -118,7 +120,10 @@ export default function Footer() {
                   color: 'var(--color-button)',
                 }}
               />
-              <p>026-34205140-41</p>
+
+              <a href="tel:+982833655983">
+                <p>33655983-85 - 028</p>
+              </a>
             </div>
           </div>
         </div>

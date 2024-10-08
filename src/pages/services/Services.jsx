@@ -18,6 +18,13 @@ function Services() {
               تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
               و جذابی برای برند خود ایجاد کنید.
             </p>
+            <div className="service__icon-container">
+              <img
+                className="service__icon"
+                src="/icons/our_services/fountain_pen.svg"
+                alt=""
+              />
+            </div>
           </div>
 
           <div className="service__image-content">
@@ -28,15 +35,11 @@ function Services() {
                 className="service__image"
               />
             </div>
-
-            <div className="service__icon-container">
-              <img src="/icons/our_services/fountain_pen.svg" alt="" />
-            </div>
           </div>
         </div>
       </section>
 
-      <section className="services-section section-env-ads">
+      <section id="env" className="services-section section-env-ads">
         <div className="env-ads">
           <div className="env-ads__headings">
             <p className="english-title">Environmental Advertising</p>
@@ -75,20 +78,13 @@ function Services() {
       </section>
 
       <section className="services-section section-campaign">
-        <div className="service campaign">
+        <div id="campaign" className="service campaign">
           <div className="service__image-content">
             <div className="service__image-container">
               <img
                 src="/images/pages/our_services_page/business_coaching.webp"
                 alt="عکس در مورد کمپین نویسی"
                 className="service__image"
-              />
-            </div>
-
-            <div className="service__icon-container">
-              <img
-                src="/icons/our_services/campaign_icon.svg"
-                alt="آیکون کمپین نویسی"
               />
             </div>
           </div>
@@ -103,6 +99,13 @@ function Services() {
               تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
               و جذابی برای برند خود ایجاد کنید.
             </p>
+            <div className="service__icon-container">
+              <img
+                className="service__icon"
+                src="/icons/our_services/campaign_icon.svg"
+                alt="آیکون کمپین نویسی"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -117,13 +120,6 @@ function Services() {
                 className="service__image"
               />
             </div>
-
-            <div className="service__icon-container">
-              <img
-                src="/icons/our_services/digital_marketing_icon.svg"
-                alt="آیکون دیجیتال مارکتینگ"
-              />
-            </div>
           </div>
           <div className="service__body-content">
             <div className="campaign__headings">
@@ -136,6 +132,13 @@ function Services() {
               تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
               و جذابی برای برند خود ایجاد کنید.
             </p>
+            <div className="service__icon-container">
+              <img
+                className="service__icon"
+                src="/icons/our_services/digital_marketing_icon.svg"
+                alt="آیکون دیجیتال مارکتینگ"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -162,6 +165,13 @@ function Services() {
               تجربه ما در زمینه طراحی، ما به شما کمک می‌کنیم تا هویت بصری متمایز
               و جذابی برای برند خود ایجاد کنید.
             </p>
+            <div className="service__icon-container">
+              <img
+                className="service__icon"
+                src="/icons/our_services/business_coaching_icon.svg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>

@@ -8,8 +8,7 @@ const categoryObject = [
   },
   {
     id: 2,
-    image:
-      '/images/media_images/billboards/ghazvin/عکس از بیلبورد ابتدا حوزه قزوینx2.webp',
+    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_10.webp',
     title: 'بیلبورد(اتوبان کرج - قزوین)',
     alt: 'عکس از بیلبوردِ تبلیغاتی در محورِ اتوبان کرج به قزوین',
     linkTo: 'billboards-ghazvin',

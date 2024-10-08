@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './OurServicesCardStyle.css';
 
 export default function OurServicesCard({
@@ -5,16 +6,19 @@ export default function OurServicesCard({
   iconAlt,
   englishTitle,
   title,
+  anchorLink,
 }) {
   return (
     <>
-      <div className="our-services__card">
-        <div className="our-services__card-content">
-          <img src={icon} alt={iconAlt} />
-          <span>{englishTitle}</span>
-          <h3>{title}</h3>
+      <Link to={anchorLink}>
+        <div className="our-services__card">
+          <div className="our-services__card-content">
+            <img src={icon} alt={iconAlt} />
+            <span>{englishTitle}</span>
+            <h3>{title}</h3>
+          </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 }

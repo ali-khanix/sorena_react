@@ -14,12 +14,14 @@ export default function OurServices() {
           <div className="our-services__data">
             <div className="our-services__cards">
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Campaign Writing"
                 icon="/icons/our_services/campaign_icon.svg"
                 iconAlt="آیکون کمپین نویسی"
                 title="کمپین نویسی"
               />
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Environmental Advertising"
                 icon="/icons/our_services/billboard_icon.svg"
                 iconAlt="آیکون بیلبورد"
@@ -27,6 +29,7 @@ export default function OurServices() {
               />
 
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Business Coaching"
                 icon="/icons/our_services/business_coaching_icon.svg"
                 iconAlt="آیکون کوچینگ کسب و کار"
@@ -34,18 +37,21 @@ export default function OurServices() {
               />
 
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Brand Identity Design"
                 icon="/icons/our_services/fountain_pen.svg"
                 iconAlt="آیکون طراحی"
                 title="طراحی و هویت برند"
               />
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Digital Marketing"
                 icon="/icons/our_services/digital_marketing_icon.svg"
                 iconAlt="آیکون دیجیتال مارکتینگ"
                 title="دیجیتال مارکتینگ"
               />
               <OurServicesCard
+                anchorLink={'/services'}
                 englishTitle="Photography & Filming"
                 icon="/icons/our_services/photography_icon.svg"
                 iconAlt="آیکون عکاسی"

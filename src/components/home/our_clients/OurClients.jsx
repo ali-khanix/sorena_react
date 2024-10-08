@@ -14,160 +14,72 @@ export default function OurClients() {
           <div className="our-clients__logos">
             <div className="our-clients__logos-slide">
               <img
-                src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک آینده.png"
+                alt="لوگو بانک آینده"
+                className="our-clients__logo-img h-40"
               />
               <img
-                src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک ملی.png"
+                alt="لوگو بانک ملی"
+                className="our-clients__logo-img h-40"
               />
               <img
-                src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک پاسارگاد.png"
+                alt="لوگو بانک پاسارگاد"
+                className="our-clients__logo-img h-40"
               />
-
+              <img
+                src="/images/logo/company logoes/لوگو تک ماکارون.png"
+                alt="لوگو تک ماکارون"
+                className="our-clients__logo-img h-40"
+              />
               <img
                 src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
+                alt="لوگو شهر فرش"
                 className="our-clients__logo-img"
               />
               <img
                 src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
+                alt="لوگو اسنپ"
                 className="our-clients__logo-img"
               />
 
               <img
-                src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
                 src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
+                alt="لوگو فیلیمو"
                 className="our-clients__logo-img"
               />
               <img
                 src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
+                alt="لوگو آقای فرش"
                 className="our-clients__logo-img"
               />
 
-              <img
-                src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
               <img
                 src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
+                alt="لوگو دلند"
                 className="our-clients__logo-img"
               />
 
               <img
-                src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک آینده.png"
+                alt="لوگو بانک آینده"
+                className="our-clients__logo-img h-40"
               />
               <img
-                src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک ملی.png"
+                alt="لوگو بانک ملی"
+                className="our-clients__logo-img h-40"
               />
               <img
-                src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو بانک پاسارگاد.png"
+                alt="لوگو بانک پاسارگاد"
+                className="our-clients__logo-img h-40"
               />
               <img
-                src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-
-              <img
-                src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Deland logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Filimo logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Mr Farsh logo.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-
-              <img
-                src="/images/logo/company logoes/Shahr Farsh 1.svg"
-                alt=""
-                className="our-clients__logo-img"
-              />
-              <img
-                src="/images/logo/company logoes/Snap logo group.svg"
-                alt=""
-                className="our-clients__logo-img"
+                src="/images/logo/company logoes/لوگو تک ماکارون.png"
+                alt="لوگو تک ماکارون"
+                className="our-clients__logo-img h-40"
               />
             </div>
           </div>

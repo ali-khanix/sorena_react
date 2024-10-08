@@ -15,7 +15,7 @@
 }
 
 .location-card__data-content {
-  padding: 1rem;
+  padding: 4rem;
   color: var(--gray-600);
   border-radius: 1rem;
   height: 100%;
@@ -53,5 +53,10 @@
 
   .address-data__content {
     font-size: 1.8rem;
+  }
+
+  .location-card .btn-container {
+    width: fit-content;
+    margin-inline-start: 0;
   }
 }

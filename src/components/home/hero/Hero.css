@@ -26,7 +26,7 @@
   flex-direction: column;
   row-gap: 3rem;
   margin-top: 3rem;
-  padding: 0 6rem;
+  padding: 0 2rem;
   text-align: center;
 }
 
@@ -79,7 +79,7 @@
 
   .hero__content {
     text-align: end;
-    padding-block: 4rem;
+    padding: 8rem;
   }
 
   .hero__content .heading-primary {

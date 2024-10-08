@@ -2,6 +2,7 @@ import './LocationCardStyle.css';
 import MapPin from '@mui/icons-material/FmdGoodOutlined';
 import ClockOutlined from '@mui/icons-material/AccessTimeOutlined';
 import PhoneOutline from '@mui/icons-material/PhoneEnabledOutlined';
+import ButtonPrimary from './../../components/buttons/ButtonPrimary';
 
 export default function LocationCard({
   title,
@@ -61,6 +62,11 @@ export default function LocationCard({
 
             <p className="address-data__content">{mobile}</p>
           </div>
+
+          <ButtonPrimary
+            icon={'/icons/calling phone icon.svg'}
+            text={'حالا تماس بگیرید'}
+          />
         </div>
 
         <div className="location-card__map-link">{location}</div>
