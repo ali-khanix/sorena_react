@@ -132,7 +132,7 @@ const billboardsGhazvin = [
     dimensions: ' 15.20 * 6.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5419.094396277294!2d50.3602414404627!3d36.1370314439674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA4JzE1LjMiTiA1MMKwMjEnMTguMyJF!5e0!3m2!1sfa!2sua!4v1710569236758!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 14,

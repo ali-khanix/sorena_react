@@ -63,6 +63,7 @@
   margin-inline: auto;
   border-radius: 1rem;
   align-self: center;
+  height: 100%;
 }
 
 .item__status {

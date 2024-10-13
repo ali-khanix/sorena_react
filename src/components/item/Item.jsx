@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './item.css';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +20,11 @@ function Item({ image, location, line, dimension, status, navigateTo }) {
         </div>
 
         <div className="item__image-content">
-          <img src={image} alt="عکس" className="image" />
+          <img
+            src={image}
+            alt={'عکس از بیلبورد تبلیغاتی ' + location}
+            className="image"
+          />
         </div>
       </div>
     </Link>

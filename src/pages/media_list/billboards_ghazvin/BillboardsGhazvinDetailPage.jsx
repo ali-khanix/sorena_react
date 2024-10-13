@@ -6,10 +6,10 @@ import ButtonPrimary from '../../../components/buttons/ButtonPrimary';
 
 export default function BillboardsGhazvinDetailPage() {
   const navigate = useNavigate();
-  const { ghazvinId } = useParams();
+  const { billboardsGhazvinId } = useParams();
 
   const singleGhazvinMedia = billboardsGhazvinData.find(
-    (media) => media.id === parseInt(ghazvinId)
+    (media) => media.id === parseInt(billboardsGhazvinId)
   );
 
   const { image, location, line, dimensions, status, mapLink } =

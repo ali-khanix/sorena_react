@@ -8,7 +8,7 @@ h1 {
 }
 
 .bridges-ghazvin-container .section-headings span {
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   color: var(--gray-400);
   font-weight: 100;
   font-size: 2rem;
@@ -65,7 +65,7 @@ h1 {
 @media screen and (min-width: 93em) {
   .list-container,
   .category-nav {
-    width: 60%;
+    width: 75%;
   }
 
   .section-headings h1 {

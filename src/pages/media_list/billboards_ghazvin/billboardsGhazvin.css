@@ -3,7 +3,7 @@
 }
 
 .section-headings .headings span {
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   font-weight: 100 !important;
   color: var(--gray-400);
 }
@@ -34,7 +34,7 @@
 }
 
 .breadcrumb a::after {
-  content: " /";
+  content: ' /';
 }
 
 .breadcrumb .active {
@@ -102,6 +102,6 @@
 
 @media screen and (min-width: 93em) {
   .list-container {
-    width: 60%;
+    width: 75%;
   }
 }

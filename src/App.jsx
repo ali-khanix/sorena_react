@@ -10,7 +10,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 // Pages
 import Home from './pages/home/Home';
@@ -43,9 +43,29 @@ const router = createBrowserRouter(
             <Helmet>
               <meta
                 name="keywords"
-                content="خانه بیلبورد, اجاره بیلبورد تبلیغاتی "
+                content="بیلبورد, اجاره بیلبورد تبلیغاتی "
               />
-              <title>خانه بیلبورد - اجاره بیلبورد تبلیغاتی</title>
+              <title>خانه بیلبورد - اجاره بیلبوردهای تبلیغاتی</title>
+              <meta
+                name="description"
+                content="ما به شما مشاوره میدهیم با توجه به شغل و خدماتِ شما، مناسب ترین
+            فضاهایِ تبلیغاتی برای اجاره بلیبورد تبلیغاتی را در بهترین لوکیشن ها را انتخاب کنید"
+              />
+              <meta
+                property="og:title"
+                content="خانه بیلبورد - اجاره بیلبورد تبلیغاتی"
+              />
+              <meta
+                property="description"
+                content="ما به شما مشاوره میدهیم با توجه به شغل و خدماتِ شما، مناسب ترین
+            فضاهایِ تبلیغاتی برای اجاره بلیبورد تبلیغاتی را در بهترین لوکیشن ها را انتخاب کنید"
+              />
+              <meta property="og:type" content="website" />
+              <meta property="og:url" content="https://sorenairan.com" />
+              <meta
+                property="og:image"
+                content="./../public/images/hero/hero1.webp"
+              />
             </Helmet>
           </>
         }
@@ -57,11 +77,12 @@ const router = createBrowserRouter(
           <>
             <MediaListLayout />
             <Helmet>
-              <title>خانه بیلبورد - لیست رسانه ها</title>
+              <meta name="keywords" content="بیلبورد، بیلبوردهای تبلیغاتی" />
+              <title>خانه بیلبورد - لیست بیلبودرهای تبلیغاتی</title>
               <meta charSet="utf-8" />
               <meta
                 name="description"
-                content="لیست رسانه ها کانون تبلیغاتی سورنا"
+                content="لیست تمامی رسانه ها، بیلبورد ها و بیلبوردهای تبلیغاتی در محورهای اتوبان کرج قزوین و محور قم و عرشه پل در محور جاجرود را میتوانید مشاهده کنید"
               />
             </Helmet>
           </>
@@ -75,11 +96,27 @@ const router = createBrowserRouter(
             <BillobardsGhazvin />
             <Helmet>
               <meta charSet="utf-8" />
-              <title>خانه بیلبورد - بیلبوردهای محور قزوین کرج</title>
+              <meta name="keywords" content="بلیبورد، بیلبوردهای تبلیغاتی" />
+              <title>
+                خانه بیلبورد - لیست بیلبوردهای تبلیغاتی محور قزوین کرج
+              </title>
               <meta
                 name="description"
-                content="لیست بیلبوردها محور قزوین کرج"
+                content="لیست بیلبوردهای تبلیغاتی محور قزوین کرج"
               />
+            </Helmet>
+          </>
+        }
+      />
+
+      <Route
+        path="/media-list/billboards-ghazvin/:billboardsGhazvinId"
+        element={
+          <>
+            <BillboardsGhazvinDetailPage />
+            <Helmet>
+              <meta charset="utf-8" />
+              <title>خانه بیلبورد - جزئیات بیلبوردهای محور آبیک تا قزوین</title>
             </Helmet>
           </>
         }
@@ -92,7 +129,11 @@ const router = createBrowserRouter(
             <BridgesGhazvin />
             <Helmet>
               <meta charSet="utf-8" />
-              <title>خانه بیلبورد - لیست پل های محور کرج قزوین</title>
+              <meta
+                name="keywords"
+                content="تبلیغات، تبلیغات بر روی پل، پل تبلیغاتی"
+              />
+              <title>خانه بیلبورد - لیست پل و تبلیغات بر روی پل</title>
               <meta name="description" content="لیست پل های محور کرج قزوین" />
             </Helmet>
           </>
@@ -101,7 +142,15 @@ const router = createBrowserRouter(
 
       <Route
         path="/media-list/bridges-ghazvin/:bridgesGhazvinId"
-        element={<BridgesGhazvinDetailPage />}
+        element={
+          <>
+            <BridgesGhazvinDetailPage />
+            <Helmet>
+              <meta charset="uft-8" />
+              <title>خانه بیلبورد - جزئیات پل محور قزوین</title>
+            </Helmet>
+          </>
+        }
       />
 
       <Route path="/media-list/billboards-ghom" element={<BillBoardsGhom />} />
@@ -114,6 +163,11 @@ const router = createBrowserRouter(
       <Route
         path="/media-list/bridges-jajrud/:bridgesJajrudId"
         element={<BridgesJajrudDetailPage />}
+      />
+
+      <Route
+        path="/media-list/bridges-jajrud/:billboardsGhazvinId"
+        element={<BillboardsGhazvinDetailPage />}
       />
 
       <Route

@@ -8,7 +8,7 @@ h1 {
 
 .ghom-section-title span {
   font-size: 2rem;
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   font-weight: 100;
   color: var(--gray-400);
 }
@@ -59,6 +59,6 @@ h1 {
 
 @media screen and (min-width: 93em) {
   .list-container {
-    width: 60%;
+    width: 75%;
   }
 }

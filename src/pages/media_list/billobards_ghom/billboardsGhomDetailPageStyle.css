@@ -93,7 +93,7 @@
 .media__details-reserved {
   background-color: var(--gray-300);
   border-radius: 4rem;
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
   color: var(--gray-600);
 }
 

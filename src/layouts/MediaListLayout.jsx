@@ -1,9 +1,9 @@
-import Category from "../pages/media_list/Category";
-import categoryObject from "../data/MediaData";
-import "./MediaListStyle.css";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import ArrowLeftLineIcon from "remixicon-react/ArrowLeftLineIcon";
+import Category from '../pages/media_list/Category';
+import categoryObject from '../data/MediaData';
+import './MediaListStyle.css';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
 
 function MediaList() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ function MediaList() {
       <div className="category-page-container">
         <div className="section-title">
           <span>Media List</span>
-          <h1>لیستِ رسانه های تبلیغاتی</h1>
+          <h1>لیستِ بیلبوردهای تبلیغاتی</h1>
         </div>
         <nav className="category-nav">
           <div className="nav__buttons">
