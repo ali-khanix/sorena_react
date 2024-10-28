@@ -65,11 +65,17 @@ function Navbar() {
             id="nav-toggle"
             className="nav__toggle"
           >
-            <img src="/icons/menu icon/menu line horizontal.svg" alt="" />
+            <img
+              src="/icons/menu icon/menu line horizontal.svg"
+              alt="آیکون منو"
+            />
           </div>
           <div className="nav__logo-container">
             <Link to="/" className="nav__logo-link">
-              <img src="/images/logo/لوگو سورنا با حروفِ فارسی.svg" alt="" />
+              <img
+                src="/images/logo/لوگو سورنا با حروفِ فارسی.svg"
+                alt="لوگو کانون سورنا"
+              />
             </Link>
           </div>
           <div className="nav__menu" id="nav-menu">
@@ -151,12 +157,12 @@ function Navbar() {
             className="nav__download"
           >
             <a
-              href="/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز.pdf"
+              href="/pdf/کاتالوگ پل ها و بیلبوردهای کانون سورنا مهر البرز آپدیت 24 مهر.pdf"
               className="nav__download-content"
             >
               <img
                 src="/icons/catalogue button/icon1.svg"
-                alt=""
+                alt="آیکون کاتالوگ"
                 className="nav__download-image"
               />
               <span>دانلودِ کاتالوگ</span>

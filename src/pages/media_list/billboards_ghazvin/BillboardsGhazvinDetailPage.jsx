@@ -3,6 +3,7 @@ import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
 import './../billboards_ghazvin/billboardsGhazvinDetailPageStyle.css';
 import billboardsGhazvinData from '../../../data/BillboardsGhazvinData';
 import ButtonPrimary from '../../../components/buttons/ButtonPrimary';
+import { Helmet } from 'react-helmet-async';
 
 export default function BillboardsGhazvinDetailPage() {
   const navigate = useNavigate();
@@ -12,11 +13,27 @@ export default function BillboardsGhazvinDetailPage() {
     (media) => media.id === parseInt(billboardsGhazvinId)
   );
 
-  const { image, location, line, dimensions, status, mapLink } =
-    singleGhazvinMedia;
+  const {
+    image,
+    location,
+    line,
+    dimensions,
+    status,
+    mapLink,
+    metaDescription,
+    metaTitle,
+  } = singleGhazvinMedia;
 
   return (
     <>
+      <Helmet>
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <link
+          rel="canonical"
+          href="https://sorenairan.com/media-list/billboards-ghazvin/"
+        />
+      </Helmet>
       <div className="detail-page">
         <div className="detail-page__nav">
           <nav className="detail-page__breadcrumb">
@@ -64,6 +81,8 @@ export default function BillboardsGhazvinDetailPage() {
         <div className="media">
           <div className="media__image-content">
             <img
+              width=""
+              height=""
               className="media__image"
               src={image}
               alt={` عکس از بیلبوردِ ${location}`}
@@ -96,7 +115,13 @@ export default function BillboardsGhazvinDetailPage() {
               <hr />
               <h3>
                 <span>وضعیت:</span>
-                <span className="media__details-reserved">{status}</span>
+                <span
+                  className={`item__status ${
+                    status === 'رزرو شده' ? 'reserved' : 'available'
+                  }`}
+                >
+                  {status}
+                </span>
               </h3>
               <hr />
 

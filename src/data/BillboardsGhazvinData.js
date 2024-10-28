@@ -9,6 +9,9 @@ const billboardsGhazvin = [
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3225.937930748078!2d50.55272388473119!3d36.046220680110885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDAyJzQ2LjQiTiA1MMKwMzMnMDEuOSJF!5e0!3m2!1sfa!2s!4v1710328395284!5m2!1sfa!2s',
     status: 'رزرو شده',
+    metaTitle: 'اجاره بیلبورد تبلیغاتی قبل از ورودی آبیک',
+    metaDescription:
+      'جشنواره بی‌نظیر اجاره بیلبورد در آبیک! پیشنهادات استثنایی و قیمتی فراموش‌ نشدنی در انتظار شماست. هم‌اکنون تماس بگیرید و از مزایای ویژه ما بهره‌مند شوید.',
   },
   {
     id: 2,
@@ -20,6 +23,9 @@ const billboardsGhazvin = [
     status: 'رزرو شده',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3226.2565429269252!2d50.567222199999996!3d36.038444399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDAyJzE4LjQiTiA1MMKwMzQnMDIuMCJF!5e0!3m2!1sfa!2s!4v1710328300477!5m2!1sfa!2s',
+    metaTitle: 'اجاره بیلبورد در ابتدا حوزه استان قزوین',
+    metaDescription:
+      'اجاره بیلبورد در ابتدا حوزه استان قزوین با قیمت های فوق العاده و پیشنهادات ویژه! فرصتی عالی برای تبلیغ محصول یا خدمات شما. ',
   },
   {
     id: 3,
@@ -30,7 +36,10 @@ const billboardsGhazvin = [
     dimensions: ' 15.30 * 6.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3220.2797804903003!2d50.270445384727324!3d36.18407698008012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDExJzAyLjciTiA1MMKwMTYnMDUuNyJF!5e0!3m2!1sfa!2sua!4v1710569492833!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
+    metaTitle: 'اجاره بیلبورد تبلیغاتی در مسیر پر تردد شهرک صنعتی کاسپین',
+    metaDescription:
+      'با اجاره بیلبورد در مسیر پر تردد شهرک کاسپین، برند خود را به هزاران نفر معرفی کنید. بهترین مکان‌ها و قیمت‌ها را از ما بخواهید.',
   },
   {
     id: 4,
@@ -42,6 +51,9 @@ const billboardsGhazvin = [
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3225.7562209317634!2d50.52079657580433!3d36.05065497247026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDAzJzAyLjQiTiA1MMKwMzEnMjQuMSJF!5e0!3m2!1sen!2s!4v1710332425676!5m2!1sen!2s',
     status: 'رزرو شده',
+    metaTitle: 'اجاره بیلبورد تبلیغاتی روبروی دانشگاه بصیر',
+    metaDescription:
+      'به دنبال افزایش فروش و برندسازی هستید؟ اجاره بیلبورد در روبروی دانشگاه بصیر را از ما بخواهید و از مزایای آن بهره‌مند شوید.',
   },
 
   {
@@ -53,6 +65,10 @@ const billboardsGhazvin = [
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3224.3819250023143!2d50.45373167580588!3d36.08417687245986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA1JzAzLjAiTiA1MMKwMjcnMjIuNyJF!5e0!3m2!1sen!2s!4v1710333011307!5m2!1sen!2s',
     status: 'رزرو شده',
+    metaTitle:
+      'اجاره بیلبورد تبلیغاتی در خروجی طالقان | تبلیغات موثر در محور کرج قزوین',
+    metaDescription:
+      'به دنبال یک مکان استراتژیک برای نمایش تبلیغات خود هستید؟ اجاره بیلبورد در خروجی طالقان، بهترین گزینه برای شماست',
   },
   {
     id: 6,
@@ -72,7 +88,7 @@ const billboardsGhazvin = [
     dimensions: ' 15 * 6',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d18233.73846352852!2d50.410411667423865!3d36.11054762995457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA2JzA0LjkiTiA1MMKwMjUnMjMuMCJF!5e0!3m2!1sen!2s!4v1710333259505!5m2!1sen!2s',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 8,
@@ -112,7 +128,7 @@ const billboardsGhazvin = [
     dimensions: ' 16.20 * 6.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3222.9633026984443!2d50.38986118472915!3d36.11875178009451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA3JzA3LjUiTiA1MMKwMjMnMTUuNiJF!5e0!3m2!1sfa!2sua!4v1710569081928!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 12,
@@ -122,7 +138,7 @@ const billboardsGhazvin = [
     dimensions: ' 12.20 * 5.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15328.8692073636!2d50.383667801472235!3d36.13009106768935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA3JzMyLjQiTiA1MMKwMjInMzIuOSJF!5e0!3m2!1sfa!2sua!4v1710569213441!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 13,
@@ -134,16 +150,7 @@ const billboardsGhazvin = [
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5419.094396277294!2d50.3602414404627!3d36.1370314439674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA4JzE1LjMiTiA1MMKwMjEnMTguMyJF!5e0!3m2!1sfa!2sua!4v1710569236758!5m2!1sfa!2sua',
     status: 'آماده اکران',
   },
-  {
-    id: 14,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_14.webp',
-    location: 'روبروی نیروگاه',
-    line: 'دید به قزوین',
-    dimensions: ' 12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3221.280225552679!2d50.30886358472785!3d36.159734980085524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA5JzM1LjEiTiA1MMKwMTgnMjQuMCJF!5e0!3m2!1sfa!2sua!4v1710569268601!5m2!1sfa!2sua',
-    status: 'رزرو شده',
-  },
+
   {
     id: 15,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_15.webp',
@@ -152,7 +159,7 @@ const billboardsGhazvin = [
     dimensions: ' 12.20 * 5',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3221.280225552679!2d50.30886358472785!3d36.159734980085524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA5JzM1LjEiTiA1MMKwMTgnMjQuMCJF!5e0!3m2!1sfa!2sua!4v1710569268601!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 16,
@@ -174,16 +181,7 @@ const billboardsGhazvin = [
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3220.2797804903003!2d50.270445384727324!3d36.18407698008012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDExJzAyLjciTiA1MMKwMTYnMDUuNyJF!5e0!3m2!1sfa!2sua!4v1710569492833!5m2!1sfa!2sua',
     status: 'رزرو شده',
   },
-  {
-    id: 18,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_18.webp',
-    location: 'روبروی نیروگاه',
-    line: 'دید به قزوین',
-    dimensions: ' 12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3221.280225552679!2d50.30886358472785!3d36.159734980085524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA5JzM1LjEiTiA1MMKwMTgnMjQuMCJF!5e0!3m2!1sfa!2sua!4v1710569268601!5m2!1sfa!2sua',
-    status: 'رزرو شده',
-  },
+
   {
     id: 19,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_19.webp',
@@ -192,7 +190,7 @@ const billboardsGhazvin = [
     dimensions: '16.20 * 6.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3219.9674652553126!2d50.25555168472718!3d36.19167308007831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDExJzMwLjAiTiA1MMKwMTUnMTIuMSJF!5e0!3m2!1sfa!2sua!4v1710569534201!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 20,
@@ -231,7 +229,7 @@ const billboardsGhazvin = [
     line: 'دید به قزوین',
     dimensions: '12.40 * 5',
     mapLink: '',
-    status: 'آماده اکران',
+    status: 'رزرو شده',
   },
   {
     id: 24,
@@ -251,15 +249,7 @@ const billboardsGhazvin = [
     mapLink: '',
     status: 'آماده اکران',
   },
-  {
-    id: 26,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_26.webp',
-    location: 'ورودی a4',
-    line: 'دید به قزوین',
-    dimensions: '12.10 * 5.10',
-    mapLink: '',
-    status: 'آماده اکران',
-  },
+
   {
     id: 27,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_27.webp',
@@ -287,7 +277,7 @@ const billboardsGhazvin = [
     line: 'دید به قزوین',
     dimensions: '8.20 * 4',
     mapLink: '',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 30,
@@ -336,7 +326,7 @@ const billboardsGhazvin = [
     dimensions: '15 * 6',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d25768.640924089596!2d50.31114182014505!3d36.164605023636085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDEwJzIzLjEiTiA1MMKwMTcnMDUuNCJF!5e0!3m2!1sfa!2sua!4v1710570907069!5m2!1sfa!2sua',
-    status: 'آماده اکران',
+    status: 'رزرو شده',
   },
   {
     id: 35,
@@ -345,7 +335,7 @@ const billboardsGhazvin = [
     line: 'دید به قزوین',
     dimensions: '15.80 * 7.80',
     mapLink: '',
-    status: 'آماده اکران',
+    status: 'رزرو شده',
   },
   {
     id: 36,
@@ -368,6 +358,26 @@ const billboardsGhazvin = [
     status: 'آماده اکران',
   },
   {
+    id: 371,
+    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_37.webp',
+    location: 'ورودی آبیک',
+    line: 'دید به کرج',
+    dimensions: '15.20 * 6.20',
+    mapLink:
+      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3222.8394090389497!2d50.38413748472903!3d36.12176998009402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA3JzE4LjQiTiA1MMKwMjInNTUuMCJF!5e0!3m2!1sfa!2sua!4v1710571162828!5m2!1sfa!2sua',
+    status: 'رزرو شده',
+  },
+  {
+    id: 372,
+    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_37.webp',
+    location: 'بعد از پمپ بنزین آبیک',
+    line: 'دید به کرج',
+    dimensions: '15.20 * 6.20',
+    mapLink:
+      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3222.8394090389497!2d50.38413748472903!3d36.12176998009402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDA3JzE4LjQiTiA1MMKwMjInNTUuMCJF!5e0!3m2!1sfa!2sua!4v1710571162828!5m2!1sfa!2sua',
+    status: 'رزرو شده',
+  },
+  {
     id: 38,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_38.webp',
     location: 'جاده قدیم رشت - نسیم شمال',
@@ -375,7 +385,7 @@ const billboardsGhazvin = [
     dimensions: '12.20 * 5',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6416.1919785845275!2d49.507991681656605!3d36.47939759705243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDI4JzQ4LjAiTiA0OcKwMzAnMDcuMCJF!5e0!3m2!1sfa!2sua!4v1710571494097!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 39,
@@ -385,7 +395,7 @@ const billboardsGhazvin = [
     dimensions: '12.20 * 5',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6416.1919785845275!2d49.507991681656605!3d36.47939759705243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDI4JzQ4LjAiTiA0OcKwMzAnMDcuMCJF!5e0!3m2!1sfa!2sua!4v1710571494097!5m2!1sfa!2sua',
-    status: 'رزرو شده',
+    status: 'آماده اکران',
   },
   {
     id: 40,
@@ -395,7 +405,7 @@ const billboardsGhazvin = [
     dimensions: '12.10 * 5.10',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d9065.198574978116!2d49.53362498837593!3d36.55334877382712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDMzJzE2LjAiTiA0OcKwMzEnMzAuMSJF!5e0!3m2!1sfa!2sua!4v1710571673956!5m2!1sfa!2sua',
-    status: 'آماده اکران',
+    status: 'رزرو شده',
   },
   {
     id: 41,
@@ -405,14 +415,14 @@ const billboardsGhazvin = [
     dimensions: '12.10 * 5.10',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3212.8059849462006!2d49.56119938472216!3d36.36547808004032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDIxJzU1LjciTiA0OcKwMzMnMzIuNCJF!5e0!3m2!1sfa!2sua!4v1710571744251!5m2!1sfa!2sua',
-    status: 'آماده اکران',
+    status: 'رزرو شده',
   },
   {
     id: 42,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_42.webp',
     location: 'تابلو سوم قبل از عوارضی',
     line: 'دید به قزوین',
-    dimensions: '16.20 * 6.20',
+    dimensions: '12.10 * 5.10',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6430.612080640429!2d49.911693992936115!3d36.30488472617598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDE4JzE2LjEiTiA0OcKwNTQnMjguOSJF!5e0!3m2!1sfa!2sua!4v1710571773702!5m2!1sfa!2sua',
     status: 'رزرو شده',
@@ -442,60 +452,22 @@ const billboardsGhazvin = [
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_45.webp',
     location: '10 کیلومتری قزوین',
     line: 'دید به قزوین',
-    dimensions: '16.10 * 6.20',
+    dimensions: '15 * 6',
     mapLink: '',
-    status: 'آماده اکران',
+    status: 'در حال باز سازی',
   },
-  {
-    id: 46,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_46.webp',
-    location: 'قبل از عوارضی 3 زنجان',
-    line: 'دید به قزوین',
-    dimensions: '12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d9098.334495447021!2d49.93920659550315!3d36.26992058297582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDE2JzA4LjAiTiA0OcKwNTYnMDAuMiJF!5e0!3m2!1sfa!2sua!4v1710582138027!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
+
   {
     id: 47,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_47.webp',
-    location: 'قبل از عوارضی 3 زنجان',
+    location: '4 کیلومتر مانده به عوارضی 3 زنجان',
     line: 'دید به قزوین',
     dimensions: '12.20 * 5',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d86584.19926837565!2d49.97540943441078!3d36.24667026060371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDEzJzU5LjAiTiA0OcKwNTQnMDQuNCJF!5e0!3m2!1sfa!2sua!4v1710582175017!5m2!1sfa!2sua',
     status: 'آماده اکران',
   },
-  {
-    id: 48,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_48.webp',
-    location: 'چسبیده به عوارضی 3 زنجان',
-    line: 'دید به قزوین',
-    dimensions: '15 * 6',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4549.087392636067!2d49.93692879988154!3d36.271291241282704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDE2JzEzLjkiTiA0OcKwNTYnMDEuMSJF!5e0!3m2!1sfa!2sua!4v1710581887591!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
-  {
-    id: 49,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_49.webp',
-    location: 'بعد از عوارضی 3 زنجان',
-    line: 'دید به قزوین',
-    dimensions: '12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d9098.202102603349!2d49.94266399506046!3d36.27105680273774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDE2JzA4LjAiTiA0OcKwNTYnMDAuMiJF!5e0!3m2!1sfa!2sua!4v1710582597314!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
-  {
-    id: 50,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_50.webp',
-    location: 'بعد از عوارضی 3 زنجان',
-    line: 'دید به قزوین',
-    dimensions: '12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15309.03658501127!2d49.91041172639671!3d36.2315133790874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDEzJzU5LjAiTiA0OcKwNTQnMDQuNCJF!5e0!3m2!1sfa!2sua!4v1710582682018!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
+
   {
     id: 51,
     image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_51.webp',
@@ -513,26 +485,6 @@ const billboardsGhazvin = [
     dimensions: '10.30 * 5.20',
     mapLink:
       'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d86989.50984000624!2d49.547195599043874!3d35.879226350061494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDUyJzQxLjYiTiA0OcKwMjcnNTkuOSJF!5e0!3m2!1sfa!2sua!4v1710582855612!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
-  {
-    id: 53,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_53.webp',
-    location: '1000 متر قبل از ورودی تاکستان',
-    line: 'دید به قزوین',
-    dimensions: '10.30 * 5.20',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d86989.50984000624!2d49.547195599043874!3d35.879226350061494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDUyJzQxLjYiTiA0OcKwMjcnNTkuOSJF!5e0!3m2!1sfa!2sua!4v1710582855612!5m2!1sfa!2sua',
-    status: 'آماده اکران',
-  },
-  {
-    id: 54,
-    image: '/images/media_images/billboards/ghazvin/billboards_ghazvin_54.webp',
-    location: 'سه راهی شامی شاپ(به سمت قزوین)',
-    line: 'دید به قزوین',
-    dimensions: '12.20 * 5',
-    mapLink:
-      'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6453.6978892031875!2d49.643834203556196!3d36.02398195729583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDAxJzI2LjQiTiA0OcKwMzgnMjAuOSJF!5e0!3m2!1sfa!2sua!4v1710582871770!5m2!1sfa!2sua',
     status: 'آماده اکران',
   },
 ];

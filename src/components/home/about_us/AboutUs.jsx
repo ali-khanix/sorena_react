@@ -126,13 +126,22 @@ export default function AboutUs() {
               }}
             >
               <SwiperSlide className="about-us__images-slide">
-                <img src="/images/about us/aboutUs1.webp" alt="" />
+                <img
+                  src="/images/about us/aboutUs1.webp"
+                  alt="عکس از مدیر عامل کانون بیلبورد تبلیغاتی سورنا"
+                />
               </SwiperSlide>
               <SwiperSlide className="about-us__images-slide">
-                <img src="/images/about us/aboutUs2.webp" alt="" />
+                <img
+                  src="/images/about us/aboutUs2.webp"
+                  alt="عکس از مدیر عامل کانون بیلبورد تبلیغاتی سورنا"
+                />
               </SwiperSlide>
               <SwiperSlide className="about-us__images-slide">
-                <img src="/images/about us/aboutUs3.webp" alt="" />
+                <img
+                  src="/images/about us/aboutUs3.webp"
+                  alt="عکس از مدیر عامل کانون بلیبورد تبلیغاتی سورنا"
+                />
               </SwiperSlide>
 
               <div className="navigations">

@@ -15,7 +15,7 @@ export default function SecondCta() {
               <source srcSet="/images/second_cta/second_cta_image_desktop.webp" />
               <img
                 src="/images/second_cta/second_cta_image_mobile.webp"
-                alt=""
+                alt="عکس بیلبورد تبلیغاتی"
                 className="second-cta__image"
               />
             </picture>

@@ -1,7 +1,8 @@
 import RootLayout from './layouts/RootLayout';
-import './App.css';
+
 import './data/MediaData';
 import './index.css';
+import './App.css';
 
 import {
   createBrowserRouter,
@@ -10,7 +11,9 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
+
+// Data
 
 // Pages
 import Home from './pages/home/Home';
@@ -41,10 +44,12 @@ const router = createBrowserRouter(
           <>
             <Home />
             <Helmet>
+              <meta charSet="UTF-8" />
               <meta
                 name="keywords"
                 content="بیلبورد, اجاره بیلبورد تبلیغاتی "
               />
+              <link rel="canonical" href="http://sorenairan.com/" />
               <title>خانه بیلبورد - اجاره بیلبوردهای تبلیغاتی</title>
               <meta
                 name="description"
@@ -66,6 +71,11 @@ const router = createBrowserRouter(
                 property="og:image"
                 content="./../public/images/hero/hero1.webp"
               />
+              <meta
+                property="og:description"
+                content="ما به شما مشاوره میدهیم با توجه به شغل و خدماتِ شما، مناسب ترین
+            فضاهایِ تبلیغاتی برای اجاره بلیبورد تبلیغاتی را در بهترین لوکیشن ها را انتخاب کنید"
+              />
             </Helmet>
           </>
         }
@@ -77,9 +87,10 @@ const router = createBrowserRouter(
           <>
             <MediaListLayout />
             <Helmet>
+              <meta charSet="utf-8" />
               <meta name="keywords" content="بیلبورد، بیلبوردهای تبلیغاتی" />
               <title>خانه بیلبورد - لیست بیلبودرهای تبلیغاتی</title>
-              <meta charSet="utf-8" />
+
               <meta
                 name="description"
                 content="لیست تمامی رسانه ها، بیلبورد ها و بیلبوردهای تبلیغاتی در محورهای اتوبان کرج قزوین و محور قم و عرشه پل در محور جاجرود را میتوانید مشاهده کنید"
@@ -114,10 +125,6 @@ const router = createBrowserRouter(
         element={
           <>
             <BillboardsGhazvinDetailPage />
-            <Helmet>
-              <meta charset="utf-8" />
-              <title>خانه بیلبورد - جزئیات بیلبوردهای محور آبیک تا قزوین</title>
-            </Helmet>
           </>
         }
       />

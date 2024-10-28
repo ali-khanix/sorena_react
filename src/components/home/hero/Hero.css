@@ -61,7 +61,6 @@
 
   .hero__cta-buttons {
     display: flex;
-    flex-direction: row-reverse;
     gap: 3rem;
   }
 
@@ -99,5 +98,11 @@
     direction: ltr;
     grid-template-columns: 1.75fr 1.25fr;
     padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__cta-buttons {
+    flex-direction: row-reverse;
   }
 }

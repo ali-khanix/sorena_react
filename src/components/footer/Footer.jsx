@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="footer__nav-logo-container">
             <img
               src="/images/logo/Logo Sorena_white.svg"
-              alt=""
+              alt="لوگو کانون بیلبورد تبلیغاتی سورنا"
               className="footer__nav-logo"
             />
           </div>
